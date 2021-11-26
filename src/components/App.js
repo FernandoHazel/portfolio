@@ -104,7 +104,7 @@ function App() {
           </h2>
         </article>
         <div className='button-container'>
-          <a href='https://notsobee-zy.wixsite.com/notsobee-zy'>
+          <a href='https://a01154951.wixsite.com/critterthieves'>
             <h2 className='link-button-CT'>official web site</h2>
           </a>
         </div>
@@ -163,7 +163,7 @@ function App() {
           </h2>
         </article>
       </section>
-      <article style={{backgroundColor: '#61dafb'}} className='info-text'>
+      <article style={{backgroundColor: '#04a1cc'}} className='info-text'>
           <h2>
             email: fernandohazel1@gmail.com
           </h2>
