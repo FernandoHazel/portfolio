@@ -1,43 +1,101 @@
 .App {
   text-align: center;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 0%;
+  padding: 0%;
+  padding-bottom: 2%;
+}
+a {
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profileImg {
+  width: 30vw;
+  height: 70vh;
+  border-radius: 50%;
+  margin-top: 10vh;
+}
+
+.info-text{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.section-title{
+  margin-top: 10%;
+  font-weight: bold;
+  color: #61dafb;
 }
 
 .video{
-  width: 70%;
-  height: 50%;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 100%;
+  height: 100%;
+}
+
+.image-grid-NSB{
+  box-sizing: content-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 50% 50%;
+}
+.image-grid-CT{
+  box-sizing: content-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 30% 20% 30%;
+  grid-template-rows: 50% 50%;
+}
+
+.image-grid-CT div img{
+  width: 100%;
+  height: 100%;
+}
+.image-grid-NSB div img{
+  width: 100%;
+  height: 100%;
+}
+
+.button-container{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.link-button-NSB{
+  padding: 10%;
+  background-color: rgb(207, 226, 33);
   color: white;
+  border-radius: 15%;
+  box-shadow: 4px 4px 4px rgb(255, 255, 255);
+}
+.link-button-CT{
+  padding: 10%;
+  background-color: rgb(170, 154, 9);
+  color: white;
+  border-radius: 15%;
+  box-shadow: 4px 4px 4px rgb(255, 255, 255);
+}
+.link-button-NSB:hover{
+  background-color: rgb(245, 202, 12);
+}
+.link-button-CT:hover{
+  background-color: rgb(94, 77, 5);
+}
+
+.project-title{
+  font-weight: bold;
+  font-size: 200%;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
