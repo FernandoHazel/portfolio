@@ -13,8 +13,8 @@ a {
 }
 
 .profileImg {
-  width: 30vw;
-  height: 70vh;
+  width: 50%;
+  height: 50%;
   border-radius: 50%;
   margin-top: 10vh;
 }
@@ -44,7 +44,7 @@ a {
   box-sizing: content-box;
   width: 100%;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
 }
 .image-grid-CT{
