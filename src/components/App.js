@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+
         <div className="video">
           <ReactPlayer url={demoReel}
           width='100%'
@@ -15,6 +16,7 @@ function App() {
           controls
           />
         </div>
+        hola
       </header>
     </div>
   );
