@@ -162,6 +162,11 @@ function App() {
            HTML / CSS / Javascript, Express, and MySql workbench.
           </h2>
         </article>
+        <article className='info-text'>
+          <h1 style={{color: '#2ec7f1'}}>
+            This web site was created by me too!
+          </h1>
+        </article>
       </section>
       <article style={{backgroundColor: '#04a1cc'}} className='info-text'>
           <h2>
