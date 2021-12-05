@@ -19,6 +19,7 @@ import CT5 from '../resources/CT5.PNG'
 import CT6 from '../resources/CT6.PNG'
 import CT7 from '../resources/CT7.PNG'
 import CT8 from '../resources/CT8.PNG'
+import CV from '../resources/Fernando Hazel Ascencio Baumgarten - CV.pdf'
 
 
 function App() {
@@ -28,17 +29,16 @@ function App() {
 
         <img src={profileImg} className='profileImg'/>
 
-        <h1>Fernando Ascencio Baumgarten</h1>
+        <h1>Fernando Hazel Ascencio Baumgarten</h1>
 
         <article className='info-text'>
           <h2>
           I like to create interactive experiences with which
-            people can have fun and have a good time.
-          I have created small videogames as a hobby
-          and as school projects and I'm a full stack Jr web developer.
-            I have been producer of two animated projects for networks of international
-          stature such as Cartoon Network and Nick Noggin and I want to keep learning and keep creating.
+            people can have fun and have a good time. My dream is to become a game programmer.
+          I have created small video games as a hobby
+          and as school projects and I'm a full stack Jr web developer and I want to keep learning and keep creating.
           </h2>
+
         </article>
 
       </section>
@@ -50,6 +50,11 @@ function App() {
         loop
         controls
         />
+      </div>
+      <div className='button-container'>
+        <a href={CV}>
+          <h2 className='link-button-CV'>Download CV</h2>
+        </a>
       </div>
 
       <h1 className='section-title'>VIDEOGAMES</h1>
@@ -174,6 +179,9 @@ function App() {
           </h2>
           <h2>
             cel: +52 3334953311
+          </h2>
+          <h2>
+            Linkedin: www.linkedin.com/in/fernandohab
           </h2>
         </article>
     </div>

@@ -13,9 +13,9 @@ a {
 }
 
 .profileImg {
-  width: 50%;
-  height: 50%;
-  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  border-radius: 20%;
   margin-top: 10vh;
 }
 
@@ -84,11 +84,21 @@ a {
   border-radius: 15%;
   box-shadow: 4px 4px 4px rgb(255, 255, 255);
 }
+.link-button-CV{
+  padding: 10%;
+  background-color: rgb(9, 133, 250);
+  color: white;
+  border-radius: 15%;
+  box-shadow: 4px 4px 4px rgb(255, 255, 255);
+}
 .link-button-NSB:hover{
   background-color: rgb(245, 202, 12);
 }
 .link-button-CT:hover{
   background-color: rgb(94, 77, 5);
+}
+.link-button-CV:hover{
+  background-color: rgb(1, 238, 255);
 }
 
 .project-title{
