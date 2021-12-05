@@ -5,6 +5,7 @@ import ReactPlayer from 'react-player'
 //importing resources (temporal)
 import demoReel from '../resources/Demo_Reel.mp4'
 import TecnoshopDemo from '../resources/Tecnoshop-Demo-F.mp4'
+import rig from '../resources/Video Cha Jake Rig Fernandoascencio Pub 8Nov2021.m4v'
 import UJE from '../resources/Uje-1.m4v'
 import profileImg from '../resources/Profile Img.jpg'
 import NSB1 from '../resources/NSB1.PNG'
@@ -113,6 +114,26 @@ function App() {
             <h2 className='link-button-CT'>official web site</h2>
           </a>
         </div>
+
+        <h1 className='project-title'>Character rig</h1>
+
+        <div className="video">
+        <ReactPlayer url={rig}
+        width='70%'
+        height='50%'
+        loop
+        controls
+        />
+        </div>
+
+        <article className='info-text'>
+          <h2>
+          This is a demo of a fully rigged viped, 
+          both the legs and arms are animatable in both FK and IK, 
+          as well as attributes were added to the feet to make it more 
+          comfortable for the animator to animate a walk.
+          </h2>
+        </article>
         
         <h1 className='project-title'>Un jour de éte</h1>
 
@@ -145,7 +166,7 @@ function App() {
           </h2>
         </article>
       </section>
-      <h1 className='section-title'>Web Development</h1>
+      <h1 className='section-title'>WEB DEVELOPMENT</h1>
       <section>
         <h1 className='project-title'>Tecnoshop</h1>
 
