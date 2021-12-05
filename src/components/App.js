@@ -33,10 +33,10 @@ function App() {
 
         <article className='info-text'>
           <h2>
-          I like to create interactive experiences with which
-            people can have fun and have a good time. My dream is to become a game programmer.
+          My dream is to become a game programmer to create interactive experiences with which
+            people can have fun and have a good time.
           I have created small video games as a hobby
-          and as school projects and I'm a full stack Jr web developer and I want to keep learning and keep creating.
+          and as school projects. I'm a full stack Jr web developer and I want to keep learning and keep creating.
           </h2>
 
         </article>
