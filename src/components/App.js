@@ -184,8 +184,8 @@ function App() {
           <h2>
           Tecnoshop is a technology ecommerce carried out as
            an integrating project of a full stack web development 
-           certification in which the user can create an account and 
-           buy and sell products. This project was done using Nodejs, 
+           certification in which the user can create an account, 
+           buy and sell products. This project was made using Nodejs, 
            HTML / CSS / Javascript, Express, and MySql workbench.
           </h2>
         </article>
