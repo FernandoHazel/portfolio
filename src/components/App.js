@@ -3,9 +3,9 @@ import React from 'react'
 import '../App.css';
 import ReactPlayer from 'react-player'
 //importing resources (temporal)
-import demoReel from '../resources/DemoReel-CN-Nick.mp4'
-import MO from '../resources/MarchingOrchestra_FINAL.mp4'
-import FR from '../resources/FoodRace_ConCreditos.mp4'
+import demoReel from '../resources/DemoReel-CN-Nick-comprimido.m4v'
+import MO from '../resources/MarchingOrchestra_FINAL-comprimido.m4v'
+import FR from '../resources/FoodRace_ConCreditos-comprimido.m4v'
 import TecnoshopDemo from '../resources/Tecnoshop-Demo-F.mp4'
 import rig from '../resources/Video Cha Jake Rig Fernandoascencio Pub 8Nov2021.m4v'
 import UJE from '../resources/Uje-1.m4v'
