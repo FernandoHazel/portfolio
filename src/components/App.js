@@ -3,7 +3,9 @@ import React from 'react'
 import '../App.css';
 import ReactPlayer from 'react-player'
 //importing resources (temporal)
-import demoReel from '../resources/Demo_Reel.mp4'
+import demoReel from '../resources/DemoReel-CN-Nick.mp4'
+import MO from '../resources/MarchingOrchestra_FINAL.mp4'
+import FR from '../resources/FoodRace_ConCreditos.mp4'
 import TecnoshopDemo from '../resources/Tecnoshop-Demo-F.mp4'
 import rig from '../resources/Video Cha Jake Rig Fernandoascencio Pub 8Nov2021.m4v'
 import UJE from '../resources/Uje-1.m4v'
@@ -34,11 +36,11 @@ function App() {
 
         <article className='info-text'>
           <h2>
-          My dream is to create interactive experiences with which
+          I'm a game programmer, my dream is to create interactive experiences with which
             people can have fun and have a good time.
           I have created small video games as a hobby
-          and as school projects. I'm a full stack Jr web developer 
-          and I has been producer for many projects.
+          and  for school, also I have been producer for some projects that although they are not 
+          video games but animation have been for important clients such as Cartoon Network and Nick Noggin.
           </h2>
 
         </article>
@@ -49,7 +51,6 @@ function App() {
         <ReactPlayer url={demoReel}
         width='70%'
         height='50%'
-        loop
         controls
         />
       </div>
@@ -115,7 +116,8 @@ function App() {
             <h2 className='link-button-CT'>official web site</h2>
           </a>
         </div>
-
+        
+        {/* comment here 
         <h1 className='project-title'>Character rig</h1>
 
         <div className="video">
@@ -134,7 +136,7 @@ function App() {
           as well as attributes were added to the feet to make it more 
           comfortable for the animator to animate a walk.
           </h2>
-        </article>
+        </article>*/}
         
         <h1 className='project-title'>Un jour de éte</h1>
 
@@ -189,12 +191,66 @@ function App() {
            HTML / CSS / Javascript, Express, and MySql workbench.
           </h2>
         </article>
+      </section>
+
+      
+
+
+
+
+
+
+      <h1 className='section-title'>PRODUCTION</h1>
+      <section>
+        <h1 className='project-title'>Marching orchestra - Nick Noggin</h1>
+
+        <div className="video">
+        <ReactPlayer url={MO}
+        width='70%'
+        height='50%'
+        loop
+        controls
+        />
+        </div>
+
+        <article className='info-text'>
+          <h2>
+          Marching Orchestra is a little spot for preschool children for 
+          Nick Jr's online platform called Noggin, I was the producer of this project 
+          and during that time I had to coordinate a team of 20 people. The spot is a bout a little girl that 
+          goes singing and dancing through the street of a mexican town and spreads her joy to other kids.
+          </h2>
+        </article>
+
+        <h1 className='project-title'>Food Race - Cartoon Network</h1>
+
+        <div className="video">
+        <ReactPlayer url={FR}
+        width='70%'
+        height='50%'
+        loop
+        controls
+        />
+        </div>
+
+        <article className='info-text'>
+          <h2>
+          Food Race is a little spot for children created 
+          to be screened on television on the cartoon network channel, 
+          I was the producer of this project 
+          and during that time I had to coordinate a team of 20 people. The spot is about a little girl that
+          is bored in a supermarket waiting for her mom, for fun, she imagines a frenzy race on the conveyor belt 
+          with the groceries.
+          </h2>
+        </article>
+      </section>
+
         <article className='info-text'>
           <h1 style={{color: '#2ec7f1'}}>
             This web site was created by me too!
           </h1>
         </article>
-      </section>
+      
       <article style={{backgroundColor: '#04a1cc'}} className='info-text'>
           <h2>
             email: fernandohazel1@gmail.com
