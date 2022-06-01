@@ -4,6 +4,7 @@ import '../App.css';
 import ReactPlayer from 'react-player'
 //importing resources (temporal)
 import demoReel from '../resources/DemoReel-CN-Nick-comprimido.m4v'
+import DW from '../resources/dw-portrait-1080x1920_xduaIWiB.mp4'
 import MO from '../resources/MarchingOrchestra_FINAL-comprimido.m4v'
 import FR from '../resources/FoodRace_ConCreditos-comprimido.m4v'
 import TecnoshopDemo from '../resources/Tecnoshop-Demo-F.mp4'
@@ -30,37 +31,34 @@ function App() {
     <div className="App">
       <section className='info'>
 
-        <img src={profileImg} className='profileImg'/>
-
-        <h1>Fernando Hazel Ascencio Baumgarten</h1>
-
-        <article className='info-text'>
-          <h2>
-          I'm a game programmer, my dream is to create interactive experiences with which
-            people can have fun and have a good time.
-          I have created small video games as a hobby
-          and  for school, also I have been producer for some projects that although they are not 
-          video games but animation have been for important clients such as Cartoon Network and Nick Noggin.
-          </h2>
-
-        </article>
-
-      </section>
-
-      <div className="video">
-        <ReactPlayer url={demoReel}
+       {/*  <img src={profileImg} className='profileImg'/> */}
+        
+        {/* <h1>Fernando Hazel Ascencio Baumgarten</h1> */}
+        <div className="video">
+        <ReactPlayer url={DW}
         width='70%'
         height='50%'
         controls
         />
-      </div>
-      <div className='button-container'>
-        <a href={CV}>
-          <h2 className='link-button-CV'>Download CV</h2>
-        </a>
-      </div>
+        </div>
 
-      <h1 className='section-title'>VIDEOGAMES</h1>
+        <article className='info-text'>
+          <h2>
+          Explore this prehistoric world full of dangers. You are a caveman surviving in the dinosaur
+           era who must obtain a variety of materials through exploration, mining, and hunting. 
+           Gather resources, discover fire, leave a mark and become the chief caveman that leads your tribe to become the apex predator!.
+          </h2>
+
+        </article>
+
+        <div className='button-container'>
+          <a href='https://play.google.com/store/apps/details?id=com.OneSimpleGame.DinoWorld'>
+            <h2 className='link-button-NSB'>Play Game</h2>
+          </a>
+        </div>
+      </section>
+
+      {/* <h1 className='section-title'>VIDEOGAMES</h1> */}
       <section>
 
         <h1 className='project-title'>Not so Bee-zy</h1>
@@ -80,13 +78,13 @@ function App() {
           </h2>
         </article>
         <div className='button-container'>
-          <a href='https://notsobee-zy.wixsite.com/notsobee-zy'>
-            <h2 className='link-button-NSB'>official web site</h2>
+          <a href='https://notsobee-zy.itch.io/not-so-bee-zy'>
+            <h2 className='link-button-NSB'>Play Game</h2>
           </a>
         </div>
         
       </section>
-      <section>
+      
 
         <h1 className='project-title'>Critter Thieves</h1>
 
@@ -112,14 +110,15 @@ function App() {
           </h2>
         </article>
         <div className='button-container'>
-          <a href='https://a01154951.wixsite.com/critterthieves'>
-            <h2 className='link-button-CT'>official web site</h2>
+          <a href='https://drive.google.com/uc?export=download&id=1a44T6XhZ-70WB6ZfaqEWjfhwZ0V1OrQ_'>
+            <h2 className='link-button-CT'>Play Game</h2>
           </a>
         </div>
         
+
         {/* comment here 
         <h1 className='project-title'>Character rig</h1>
-
+        <section>
         <div className="video">
         <ReactPlayer url={rig}
         width='70%'
@@ -138,7 +137,7 @@ function App() {
           </h2>
         </article>*/}
         
-        <h1 className='project-title'>Un jour de éte</h1>
+        {/* <h1 className='project-title'>Un jour de éte</h1>
 
         <div className="video">
         <ReactPlayer url={UJE}
@@ -191,16 +190,10 @@ function App() {
            HTML / CSS / Javascript, Express, and MySql workbench.
           </h2>
         </article>
-      </section>
+      </section> */}
 
       
-
-
-
-
-
-
-      <h1 className='section-title'>PRODUCTION</h1>
+      {/* <h1 className='section-title'>PRODUCTION</h1>
       <section>
         <h1 className='project-title'>Marching orchestra - Nick Noggin</h1>
 
@@ -243,7 +236,21 @@ function App() {
           with the groceries.
           </h2>
         </article>
-      </section>
+      </section> */}
+
+      <article className='info-text'>
+          <h2>
+          I'm a game programmer, I love creating interactive experiences with which
+            people can have fun and have a good time.
+          I have created small video games for PC and movile.
+          </h2>
+
+        </article>
+      <div className='button-container'>
+        <a href={CV}>
+          <h2 className='link-button-CV'>Download CV</h2>
+        </a>
+      </div>
 
         <article className='info-text'>
           <h1 style={{color: '#2ec7f1'}}>
