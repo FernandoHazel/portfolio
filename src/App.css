@@ -1,9 +1,9 @@
 .App {
   text-align: center;
   font-family: 'M PLUS 1 Code', sans-serif;
-  background-color: #282c34;
+  background-color: #007A47;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #4BFBB2;
   margin: 0%;
   padding: 0%;
   padding-bottom: 2%;
@@ -22,12 +22,19 @@ a {
 .info-text{
   padding-left: 5vw;
   padding-right: 5vw;
+  color: white;
 }
 
 .section-title{
   margin-top: 10%;
   font-weight: bold;
   color: #61dafb;
+}
+
+.videoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .video{
@@ -70,43 +77,19 @@ a {
   align-items: center;
   justify-content: center;
 }
-.link-button-NSB{
+.link-button{
   padding: 10%;
-  background-color: rgb(207, 226, 33);
+  background-color: #00FA92;
   color: white;
-  border-radius: 15%;
+  border-radius: 30%;
   box-shadow: 4px 4px 4px rgb(255, 255, 255);
 }
-.link-button-CT{
-  padding: 10%;
-  background-color: rgb(170, 154, 9);
-  color: white;
-  border-radius: 15%;
-  box-shadow: 4px 4px 4px rgb(255, 255, 255);
-}
-.link-button-CV{
-  padding: 10%;
-  background-color: rgb(9, 133, 250);
-  color: white;
-  border-radius: 15%;
-  box-shadow: 4px 4px 4px rgb(255, 255, 255);
-}
-.link-button-NSB:hover{
-  background-color: rgb(245, 202, 12);
-}
-.link-button-CT:hover{
-  background-color: rgb(94, 77, 5);
-}
-.link-button-CV:hover{
-  background-color: rgb(1, 238, 255);
+
+.link-button:hover{
+  background-color: #00C774;
 }
 
 .project-title{
   font-weight: bold;
   font-size: 200%;
-}
-
-.just-test {
-  color: #61dafb;
-  color: #2ec7f1;
 }

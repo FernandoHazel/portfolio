@@ -23,7 +23,7 @@ import CT5 from '../resources/CT5.PNG'
 import CT6 from '../resources/CT6.PNG'
 import CT7 from '../resources/CT7.PNG'
 import CT8 from '../resources/CT8.PNG'
-import CV from '../resources/Fernando Hazel Ascencio Baumgarten - CV.pdf'
+import CV from '../resources/Fernando_Hazel_Ascencio_Baumgarten_CV.pdf'
 
 
 function App() {
@@ -31,29 +31,47 @@ function App() {
     <div className="App">
       <section className='info'>
 
-       {/*  <img src={profileImg} className='profileImg'/> */}
+       <img src={profileImg} className='profileImg'/>
         
-        {/* <h1>Fernando Hazel Ascencio Baumgarten</h1> */}
-        <div className="video">
-        <ReactPlayer url={DW}
-        width='70%'
-        height='50%'
-        controls
-        />
-        </div>
+        <h1>Fernando Ascencio | videogame programmer</h1>
 
         <article className='info-text'>
           <h2>
-          Explore this prehistoric world full of dangers. You are a caveman surviving in the dinosaur
-           era who must obtain a variety of materials through exploration, mining, and hunting. 
-           Gather resources, discover fire, leave a mark and become the chief caveman that leads your tribe to become the apex predator!.
+          I'm a highly motivated videogame programmer, I love creating interactive experiences
+           in which people can have a good time. I'm an analytical thinker with the ability to apply creative problem solving skills always respecting the design document of the game.
+          I have experience has a full stack developer and I have created small video games for PC and movile.
+          </h2>
+      </article>
+
+        <div className='button-container'>
+        <a href={CV}>
+          <h2 className='link-button'>Download CV</h2>
+        </a>
+        </div>
+        <h1 className='project-title'>Dino World</h1>
+        <div className='videoContainer'>
+          <div className="video">
+          <ReactPlayer url={DW}
+          width='70%'
+          height='50%'
+          controls
+          />
+          </div>
+        </div>
+        
+
+        <article className='info-text'>
+          <h2>
+            I worked as a programmer in this caveman game in which I implemented features like the inventory system, the UI behavior, the caveman mounting dinos feature and the AI of the game.
+            In this game you are a caveman surviving in the dinosaur
+            era who must obtain a variety of materials through exploration, mining, and hunting. 
           </h2>
 
         </article>
 
         <div className='button-container'>
           <a href='https://play.google.com/store/apps/details?id=com.OneSimpleGame.DinoWorld'>
-            <h2 className='link-button-NSB'>Play Game</h2>
+            <h2 className='link-button'>Play Game</h2>
           </a>
         </div>
       </section>
@@ -74,12 +92,12 @@ function App() {
           During a school project I was the producer and programmer of a project
            developed with Unity about a lazy bee that instead of working decides to
             steal polem from her sisters, this stealth game is designed for a casual
-             audience and full of irreverent humor.
+             audience and full of irreverent humor. I worked on the movement of the character, the UI behavior and the collect feature as well as the save feature.
           </h2>
         </article>
         <div className='button-container'>
           <a href='https://notsobee-zy.itch.io/not-so-bee-zy'>
-            <h2 className='link-button-NSB'>Play Game</h2>
+            <h2 className='link-button'>Play Game</h2>
           </a>
         </div>
         
@@ -106,12 +124,12 @@ function App() {
              interesting mechanics is that the more food you collect your weight
               It increases so your ability to jump, overcome obstacles and escape is
                reduced, so as a player you will be forced to think strategically so as
-                not to die in this fun puzzle platform game.
+                not to die in this fun puzzle platform game. I worked on the character movement, The UI behavior, implemented the animations and worked on the inventory and speed system as well as the save feature.
           </h2>
         </article>
         <div className='button-container'>
           <a href='https://drive.google.com/uc?export=download&id=1a44T6XhZ-70WB6ZfaqEWjfhwZ0V1OrQ_'>
-            <h2 className='link-button-CT'>Play Game</h2>
+            <h2 className='link-button'>Play Game</h2>
           </a>
         </div>
         
@@ -238,29 +256,18 @@ function App() {
         </article>
       </section> */}
 
-      <article className='info-text'>
-          <h2>
-          I'm a game programmer, I love creating interactive experiences with which
-            people can have fun and have a good time.
-          I have created small video games for PC and movile.
-          </h2>
-
-        </article>
-      <div className='button-container'>
-        <a href={CV}>
-          <h2 className='link-button-CV'>Download CV</h2>
-        </a>
-      </div>
-
         <article className='info-text'>
-          <h1 style={{color: '#2ec7f1'}}>
+          <h1 style={{color: 'white'}}>
             This web site was created by me too!
           </h1>
         </article>
       
-      <article style={{backgroundColor: '#04a1cc'}} className='info-text'>
+      <article style={{backgroundColor: '#00c774'}} className='info-text'>
           <h2>
             email: fernandohazel1@gmail.com
+          </h2>
+          <h2>
+            gitHub: https://github.com/FernandoHazel
           </h2>
           <h2>
             cel: +52 3334953311
