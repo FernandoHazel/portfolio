@@ -62,7 +62,7 @@ function App() {
 
         <article className='info-text'>
           <h2>
-            I worked as a programmer in this caveman game in which I implemented features like the inventory system, the UI behavior, the caveman mounting dinos feature and the AI of the game.
+            I worked as a programmer in this caveman game made with Unity in which I implemented features like the inventory system, the UI behavior, the caveman mounting dinos feature and the AI of the game.
             In this game you are a caveman surviving in the dinosaur
             era who must obtain a variety of materials through exploration, mining, and hunting. 
           </h2>
@@ -89,8 +89,8 @@ function App() {
         </div>
         <article className='info-text'>
           <h2>
-          During a school project I was the producer and programmer of a project
-           developed with Unity about a lazy bee that instead of working decides to
+            During a school project I was the producer and programmer of a project made with Unity
+            about a lazy bee that instead of working decides to
             steal polem from her sisters, this stealth game is designed for a casual
              audience and full of irreverent humor. I worked on the movement of the character, the UI behavior and the collect feature as well as the save feature.
           </h2>
