@@ -262,7 +262,7 @@ function App() {
           </h1>
         </article>
       
-      <article style={{backgroundColor: '#00c774'}} className='info-text'>
+      <article style={{backgroundColor: 'rgb(43, 41, 41)'}} className='info-text'>
           <h2>
             email: fernandohazel1@gmail.com
           </h2>

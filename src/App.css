@@ -1,9 +1,9 @@
 .App {
   text-align: center;
   font-family: 'M PLUS 1 Code', sans-serif;
-  background-color: #007A47;
+  background-color: rgb(19, 18, 18);
   font-size: calc(10px + 2vmin);
-  color: #4BFBB2;
+  color: #32f95d;
   margin: 0%;
   padding: 0%;
   padding-bottom: 2%;
@@ -79,7 +79,7 @@ a {
 }
 .link-button{
   padding: 10%;
-  background-color: #00FA92;
+  background-color: #1ff033;
   color: white;
   border-radius: 30%;
   box-shadow: 4px 4px 4px rgb(255, 255, 255);
