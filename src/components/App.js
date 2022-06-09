@@ -96,7 +96,7 @@ function App() {
         </div>
         <article className='info-text'>
           <h2>
-            During a school project I was the producer and programmer of a project made with Unity
+            I was the producer and programmer of a project made with Unity
             about a lazy bee that instead of working decides to
             steal pollen from her sisters, this stealth game is designed for a casual
             audience and is full of irreverent humor.
@@ -126,7 +126,7 @@ function App() {
         </div>
         <article className='info-text'>
           <h2>
-          During a school project I was the producer and programmer of a project
+          I was the producer and programmer of a project
           developed with Unity on a mouse that ventures into a mansion full
           of traps and enemies to find food for his family, one of its most
           interesting mechanics is that the more food you collect your weight
