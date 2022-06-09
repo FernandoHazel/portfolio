@@ -5,6 +5,7 @@ import ReactPlayer from 'react-player'
 //importing resources (temporal)
 import demoReel from '../resources/DemoReel-CN-Nick-comprimido.m4v'
 import DW from '../resources/dw-portrait-1080x1920_xduaIWiB.mp4'
+import TQM from '../resources/TQM-Portafolio.mp4'
 import MO from '../resources/MarchingOrchestra_FINAL-comprimido.m4v'
 import FR from '../resources/FoodRace_ConCreditos-comprimido.m4v'
 import TecnoshopDemo from '../resources/Tecnoshop-Demo-F.mp4'
@@ -33,13 +34,16 @@ function App() {
 
        <img src={profileImg} className='profileImg'/>
         
-        <h1>Fernando Ascencio | videogame programmer</h1>
+        <h1>Fernando Ascencio | videogame programmer and web developer</h1>
 
         <article className='info-text'>
           <h2>
-          I'm a highly motivated videogame programmer, I love creating interactive experiences
-           in which people can have a good time. I'm an analytical thinker with the ability to apply creative problem solving skills always respecting the design document of the game.
-          I have experience has a full stack developer and I have created small video games for PC and movile.
+          I'm a highly motivated programmer, I love creating interactive experiences
+          in which people can have a good time. I'm an analytical thinker with the ability to apply creative problem solving skills.
+          I have worked with agile methodologies such as scrum and I am familiar with the MVC model.
+          I have created small video games for PC and mobile using 3D and 2D softwares like Unity, Maya, substance, potoshop and Ilustrator.
+          I'm also a full stack web developer with experience in Nodejs, react and relational databases.
+          I would like in the future to be able to put that knowledge together to make my games more interesting with cloud functions.
           </h2>
       </article>
 
@@ -48,6 +52,9 @@ function App() {
           <h2 className='link-button'>Download CV</h2>
         </a>
         </div>
+
+        <h1 className='section-title'>VIDEOGAMES</h1>
+
         <h1 className='project-title'>Dino World</h1>
         <div className='videoContainer'>
           <div className="video">
@@ -91,8 +98,9 @@ function App() {
           <h2>
             During a school project I was the producer and programmer of a project made with Unity
             about a lazy bee that instead of working decides to
-            steal polem from her sisters, this stealth game is designed for a casual
-             audience and full of irreverent humor. I worked on the movement of the character, the UI behavior and the collect feature as well as the save feature.
+            steal pollen from her sisters, this stealth game is designed for a casual
+            audience and is full of irreverent humor.
+            I worked on the movement of the character, the UI behavior and the collect feature as well as the save system.
           </h2>
         </article>
         <div className='button-container'>
@@ -118,20 +126,61 @@ function App() {
         </div>
         <article className='info-text'>
           <h2>
-          During a school project I was a producer and programmer of a project
-           developed with Unity on a mouse that ventures into a mansion full
-            of traps and enemies to find food for his family, one of its most
-             interesting mechanics is that the more food you collect your weight
-              It increases so your ability to jump, overcome obstacles and escape is
-               reduced, so as a player you will be forced to think strategically so as
-                not to die in this fun puzzle platform game. I worked on the character movement, The UI behavior, implemented the animations and worked on the inventory and speed system as well as the save feature.
+          During a school project I was the producer and programmer of a project
+          developed with Unity on a mouse that ventures into a mansion full
+          of traps and enemies to find food for his family, one of its most
+          interesting mechanics is that the more food you collect your weight
+          increases so your ability to jump, overcome obstacles and escape is
+          reduced. As a player you will be forced to think strategically
+          in this fun puzzle platform game.
+          I worked on the character movement, the UI behavior, implemented the animations, worked on the inventory system as well as the save system.
           </h2>
         </article>
         <div className='button-container'>
           <a href='https://drive.google.com/uc?export=download&id=1a44T6XhZ-70WB6ZfaqEWjfhwZ0V1OrQ_'>
             <h2 className='link-button'>Play Game</h2>
           </a>
+      </div>
+      
+      <h1 className='section-title'>WEB DEVELOPMENT</h1>
+        <h1 className='project-title'>Tecnoshop</h1>
+
+        <div className="video">
+        <ReactPlayer url={TecnoshopDemo}
+        width='70%'
+        height='50%'
+        loop
+        controls
+        />
         </div>
+
+        <article className='info-text'>
+          <h2>
+          Tecnoshop is an e-commerce project of a full stack web development 
+          certification in which the user can create an account, 
+          buy and sell products. This project was made using Nodejs, 
+          HTML / CSS / Javascript, Nodejs, and MySql workbench.
+        </h2>
+        <br></br>
+      </article>
+      
+      <h1 className='project-title'>TQM</h1>
+
+        <div className="video">
+        <ReactPlayer url={TQM}
+        width='70%'
+        height='50%'
+        loop
+        controls
+        />
+        </div>
+
+        <article className='info-text'>
+          <h2>
+          TQM is a page that I developed as a freelance with Node Js for a chemical solutions company
+          such as water treatment, heaters and boilers.
+          </h2>
+        </article>
         
 
         {/* comment here 
@@ -186,28 +235,7 @@ function App() {
           </h2>
         </article>
       </section>
-      <h1 className='section-title'>WEB DEVELOPMENT</h1>
-      <section>
-        <h1 className='project-title'>Tecnoshop</h1>
-
-        <div className="video">
-        <ReactPlayer url={TecnoshopDemo}
-        width='70%'
-        height='50%'
-        loop
-        controls
-        />
-        </div>
-
-        <article className='info-text'>
-          <h2>
-          Tecnoshop is a technology ecommerce carried out as
-           an integrating project of a full stack web development 
-           certification in which the user can create an account, 
-           buy and sell products. This project was made using Nodejs, 
-           HTML / CSS / Javascript, Express, and MySql workbench.
-          </h2>
-        </article>
+      
       </section> */}
 
       
@@ -256,11 +284,11 @@ function App() {
         </article>
       </section> */}
 
-        <article className='info-text'>
-          <h1 style={{color: 'white'}}>
-            This web site was created by me too!
-          </h1>
-        </article>
+
+      <h1 className='project-title'>
+        This web site was created by me too!
+      </h1>
+
       
       <article style={{backgroundColor: 'rgb(43, 41, 41)'}} className='info-text'>
           <h2>
