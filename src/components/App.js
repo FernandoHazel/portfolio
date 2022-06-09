@@ -38,7 +38,7 @@ function App() {
 
         <article className='info-text'>
           <h2>
-          I'm a highly motivated programmer, I love creating interactive experiences
+          I'm a highly motivated programmer and I have been producer in some projects, I love creating interactive experiences
           in which people can have a good time. I'm an analytical thinker with the ability to apply creative problem solving skills.
           I have worked with agile methodologies such as scrum and I am familiar with the MVC model.
           I have created small video games for PC and mobile using 3D and 2D softwares like Unity, Maya, substance, potoshop and Ilustrator.
