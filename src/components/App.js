@@ -137,7 +137,7 @@ function App() {
           </h2>
         </article>
         <div className='button-container'>
-          <a href='https://drive.google.com/uc?export=download&id=1a44T6XhZ-70WB6ZfaqEWjfhwZ0V1OrQ_'>
+          <a href='https://fernando9200.itch.io/critter-thieves'>
             <h2 className='link-button'>Play Game</h2>
           </a>
       </div>
