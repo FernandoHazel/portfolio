@@ -1,1 +1,0 @@
-//este componente tiene la estructura de un proyecto pero su contenido es dinámico dependiendo de qué proyecto sea

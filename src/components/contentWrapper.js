@@ -1,1 +1,0 @@
-//aqui va un código que verifica si hay una sección vacía o no y genera las secciones

@@ -1,1 +1,0 @@
-//aquí va el código que genera los proyectos de su sección correspondiente
